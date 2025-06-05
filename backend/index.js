@@ -11,9 +11,9 @@ const PORT = process.env.PORT || 3000
 dotenv.config();
 
 app.use(express.json({ limit: '10mb' }))
-const _dirnamme=path.dirname("")
-const buildpath = path.join(_dirnamme,"../frontend/build")
-app.use(express.static(buildpath));
+//const _dirnamme=path.dirname("")
+//const buildpath = path.join(_dirnamme,"../frontend/build")
+//app.use(express.static(buildpath));
 
 app.use(cors())
 
