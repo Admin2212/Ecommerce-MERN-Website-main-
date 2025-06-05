@@ -1,0 +1,69 @@
+@media (max-width: 1200px) {
+  /* Tablets, small laptops */
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .top-selection,
+  .deals-of-the-day {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-card {
+    width: 45%;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Tablets and larger phones */
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .product-card {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Small phones */
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .product-card {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+}
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
